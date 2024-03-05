@@ -1,0 +1,11 @@
+.button{
+    background-color: aqua;
+    padding: 4% 3%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+    .button:hover{
+        box-shadow: 5px 5px 5px rgb(83, 80, 80);
+    }
