@@ -12,6 +12,7 @@ import MyNewComponent from './MyNewComponent';
 import ColorPicker from './ColorPicker';
 import ToDoList from './ToDoList';
 import DigitalClock from './DigitalClock';
+import FetchAPI from './FetchAPI';
 
 function App() {
   const fruits = [
@@ -52,6 +53,7 @@ function App() {
       <ColorPicker></ColorPicker>
       <ToDoList></ToDoList>
       <DigitalClock></DigitalClock>
+      <FetchAPI></FetchAPI>
     </>
   );
 }
