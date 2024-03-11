@@ -13,6 +13,7 @@ import ColorPicker from './ColorPicker';
 import ToDoList from './ToDoList';
 import DigitalClock from './DigitalClock';
 import FetchAPI from './FetchAPI';
+import Axios from './Axios';
 
 function App() {
   const fruits = [
@@ -54,6 +55,7 @@ function App() {
       <ToDoList></ToDoList>
       <DigitalClock></DigitalClock>
       <FetchAPI></FetchAPI>
+      <Axios></Axios>
     </>
   );
 }

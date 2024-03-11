@@ -51,11 +51,13 @@ export default function FetchAPI() {
         <>
             <div className="card p-4">
                 <h2>Fetch API</h2>
-                {/* <ol>
+                <ol>
                     {data.map((item) => (
-                        <li key={item.id}>{item.title}, {item.userId}</li>
+                        <div className="border m-2 p-2 rounded">
+                            <li key={item.id}>{item.title}, {item.userId}</li>
+                        </div>
                     ))}
-                </ol> */}
+                </ol>
                 <button className="btn btn-sm btn-primary" onClick={apiGet}>Fetch</button>
             </div>
             <div className="card form">
