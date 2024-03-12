@@ -37,7 +37,7 @@ export default function Axios() {
         <>
             <div className="">
                 <h2>Axios</h2>
-                {isError !== "" && <p>isError</p>}
+                {isError !== "" && <p>{isError}</p>}
                 {data.slice(0, 12).map((post) => {
                     const {id, title, body} = post;
                     return <div className="card" key={id}>

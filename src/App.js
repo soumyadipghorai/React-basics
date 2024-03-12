@@ -14,6 +14,7 @@ import ToDoList from './ToDoList';
 import DigitalClock from './DigitalClock';
 import FetchAPI from './FetchAPI';
 import Axios from './Axios';
+import CustomAPI from './CustomAPI';
 
 function App() {
   const fruits = [
@@ -56,6 +57,7 @@ function App() {
       <DigitalClock></DigitalClock>
       <FetchAPI></FetchAPI>
       <Axios></Axios>
+      <CustomAPI></CustomAPI>
     </>
   );
 }
